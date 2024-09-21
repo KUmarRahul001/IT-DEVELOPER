@@ -1,1 +1,204 @@
-
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar .nav-links li {
+    margin: 0 1rem;
+  }
+  
+  .navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .navbar .btn {
+    padding: 0.7rem 1.5rem;
+    background-color: #f4b400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .navbar .btn:hover {
+    background-color: #d48e00;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero .btn {
+    padding: 0.8rem 2rem;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .hero .btn:hover {
+    background-color: #f4b400;
+    color: white;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .feature-item {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .feature-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .feature-item i {
+    color: #f4b400;
+    margin-bottom: 1rem;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 50px 0;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .service-item {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-item i {
+    color: #f4b400;
+    margin-bottom: 1rem;
+  }
+  
+  /* Call to Action Section */
+  .cta {
+    padding: 50px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta p {
+    margin-bottom: 2rem;
+  }
+  
+  .cta .btn {
+    padding: 0.8rem 2rem;
+    background-color: #f4b400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .cta .btn:hover {
+    background-color: #d48e00;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #222;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  .footer .social-links a {
+    color: white;
+    margin: 0 0.5rem;
+  }
+  
+  .footer .social-links a:hover {
+    color: #f4b400;
+  }
+  
